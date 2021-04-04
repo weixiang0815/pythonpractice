@@ -1,5 +1,6 @@
 from selenium import webdriver
 import time
+import os
 
 driver = webdriver.Chrome("C:\\Users\\henry\\Desktop\\Python Training\\chromedriver.exe")
 
@@ -26,3 +27,4 @@ time.sleep(3)
 driver.get('http://gmail.com')
 time.sleep(3)
 print('Gmail is opened')
+os.system("/f /im chromedriver.exe")
