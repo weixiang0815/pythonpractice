@@ -8,3 +8,4 @@ driver.find_element_by_id("search").send_keys("python desktop automation\n")
 getURL = driver.current_url
 req = requests.get(getURL)
 print(req.text)
+os.system("taskkill /f /im chromedriver.exe")
