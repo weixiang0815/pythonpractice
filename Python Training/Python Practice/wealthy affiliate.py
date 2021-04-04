@@ -11,3 +11,4 @@ driver.maximize_window()
 driver.find_element_by_xpath('//*[@id="main-tag"]/div/div/div/div/div/div/div[2]/div[2]/div[4]/div[2]/div/input')\
     .send_keys(email+'\t'+password+'\n')
 sleep(5)
+os.system("taskkill /f /im chromedriver.exe")
