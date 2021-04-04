@@ -12,4 +12,4 @@ print('歡迎來到FB ~ ~ ~')
 print('正在登入中......')
 driver.find_element_by_id('email').send_keys('henry940129@yahoo.com.tw\thenry880815\n')
 print('登入成功 ! ! !')
-
+os.system("taskkill /f /im chromedriver.exe")
