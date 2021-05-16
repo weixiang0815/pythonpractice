@@ -15,7 +15,7 @@ myHtml = '''<!DOCTYPE html>
 </body>
 </html>'''
 
-req = requests.get('http://www.baidu.com').
+req = requests.get('http://www.baidu.com').content
 soup = BeautifulSoup(req, 'html.parser')
 links = soup.findAll('a')
 for i in links:
