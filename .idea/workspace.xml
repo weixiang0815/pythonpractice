@@ -25,6 +25,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="830fb78d-20ae-4994-9a97-0b5ca05fe6a9" />
+        <option name="url" value="https://github.com/weixiang0815/pythonpractice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="1o7HDHIUOynBwphw9i97L6Nt50P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
