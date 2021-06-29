@@ -19,7 +19,7 @@ for x in range(5):
 driver.back()
 print('已回到上一頁')
 driver.forward()
-print('以來到下一頁')
+print('已來到下一頁')
 
 pageSource = driver.page_source
 print(pageSource)
