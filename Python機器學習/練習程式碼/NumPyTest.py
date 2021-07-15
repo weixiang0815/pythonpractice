@@ -94,3 +94,93 @@ print(unique1)
 unique1, count1 = np.unique(dice1, return_counts=True)
 print(unique1, count1)
 print(dict(zip(unique1, count1)))
+
+# In[]
+slice1 = np.random.randint(20, size=20)
+print(slice1)
+print(slice1[:5])
+
+slice2 = np.random.randint(20, size=(5, 5))
+print(slice2)
+print(slice2[:3, :3])
+
+# In[]
+stat1 = np.arange(1, 11)
+print(stat1)
+
+print(stat1.min())
+print(stat1.max())
+print(stat1.sum())
+print(stat1.mean())
+print(stat1.std())
+
+# In[]
+X1 = np.array([1, 2, 3])
+X2 = np.array([20, 36, 40])
+
+print(np.negative(X1))
+print(np.add(X1, X2))
+print(np.subtract(X1, X2))
+
+# In[]
+X1 = np.array([1, 2, 3])
+X2 = np.array([20, 36, 40])
+
+print(np.multiply(X1, X2))
+print(np.dot(X1, X2))
+print(np.inner(X1, X2))
+print(np.cross(X1, X2))
+print(np.outer(X1, X2))
+
+# In[]
+X1 = np.array([1, 2, 3])
+X2 = np.array([20, 36, 40])
+
+print(np.divide(X1, X2))
+print(np.remainder(X1, X2))
+
+X = np.array([[1, 2], [3, 4]])
+Y = np.linalg.inv(X)
+print(np.dot(X, Y))
+
+# In[]
+X1 = np.array([1, 2, 3])
+X2 = np.array([20, 36, 40])
+features = np.concatenate((X1, X2)).reshape(2, 3).T
+print(features)
+
+# In[]
+num1= np.array([-1.67, -1.01, -0.35, 0.97, 1.63])
+print(num1)
+
+print(np.around(num1, decimals=1))
+print(np.floor(num1))
+print(np.ceil(num1))
+
+# In[]
+x1 = np.arange(1.0, 10.0, 1.0).reshape(3, 3)
+print(x1)
+
+print(np.power(x1, x1))
+print(np.exp2(x1))
+print(np.exp(x1))
+print(np.sqrt(x1))
+
+# In[]
+x1 = np.arange(2, 20, 2).reshape(3, 3)
+print(x1)
+
+print(np.log10(x1))
+print(np.log2(x1))
+print(np.log(x1))
+
+# In[]
+deg = np.array([0, 30, 60, 90])
+rad = np.deg2rad(deg)
+print(np.rad2deg(rad))
+
+print(np.sin(deg))
+print(np.cos(deg))
+print(np.tan(deg))
+
+# In[]
