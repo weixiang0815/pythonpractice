@@ -1,7 +1,7 @@
 from pytube import YouTube
 
-# link = input("Enter the link of the video: ")
-link = "https://www.youtube.com/watch?v=of-WFfQ8MsU&list=WL&index=9"
+link = input("Enter the link of the video: ")
+# link = "https://www.youtube.com/watch?v=of-WFfQ8MsU&list=WL&index=9"
 yt = YouTube(link)
 
 print("Title: " + yt.title)
