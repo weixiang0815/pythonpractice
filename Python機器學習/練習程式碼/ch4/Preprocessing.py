@@ -32,3 +32,16 @@ Y = labelencoder.fit_transform(Y).astype("float64")
 print(Y)
 
 # In[]
+ary_dummies = pd.get_dummies(X[:, 0]).values
+X = np.concatenate((ary_dummies, X[:, 1:4]), axis=1).astype("float64")
+
+# In[]
+from sklearn.model_selection import train_test_split
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
+
+# In[]
+from sklearn.preprocessing import StandardScaler
+
+sc_X = StandardScaler().fit(X_train)
+X_train = sc_X.transform(X_train)
+X_test = sc_X.transform(X_test)

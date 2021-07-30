@@ -29,3 +29,10 @@ print(Y)
 print(Y_mapping)
 
 # In[]
+X = pp.onehot_encoder(X, columns=[0])
+
+# In[]
+X_train, X_test, Y_train, Y_test = pp.split_train_test(X, Y, test_size=0.8, random_state=0)
+
+# In[]
+X_train, X_test = pp.feature_scaling(X_train, transform_arys=(X_train, X_test))
