@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python機器學習/範例原始碼＆「快樂版」函式庫/HappyML" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/flask-heroku" vcs="" />
   </component>
 </project>
