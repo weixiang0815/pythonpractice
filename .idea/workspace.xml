@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e5e58ec-00ce-4d34-958e-f0362ed2cf77" name="Default Changelist" comment="modified" />
+    <list default="true" id="7e5e58ec-00ce-4d34-958e-f0362ed2cf77" name="Default Changelist" comment="modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/Pandas玩轉Excel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/output.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/Python NumPy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/numpy-ndarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python NumPy/numpy-start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python機器學習/作業/HW3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python機器學習/作業/HW3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python機器學習/作業/HW4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python機器學習/作業/HW4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygta5/1.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +78,7 @@
       <recent name="C:\Users\henry\Desktop\Python Training" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HW2">
+  <component name="RunManager" selected="Python.pt">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python爬蟲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python爬蟲/practice3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pt" />
         <item itemvalue="Python.HW2" />
         <item itemvalue="Python.HW1" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.practice3" />
       </list>
     </recent_temporary>
   </component>
