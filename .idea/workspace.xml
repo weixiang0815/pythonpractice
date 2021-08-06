@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e5e58ec-00ce-4d34-958e-f0362ed2cf77" name="Default Changelist" comment="modified">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/Pandas玩轉Excel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/001.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas玩轉Excel/output.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/Python NumPy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/numpy-ndarray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python NumPy/numpy-start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python機器學習/作業/HW3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python機器學習/作業/HW3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python機器學習/作業/HW4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python機器學習/作業/HW4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygta5/1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="7e5e58ec-00ce-4d34-958e-f0362ed2cf77" name="Default Changelist" comment="modified" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627790134562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modified">
+      <created>1628096344569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628096344569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
