@@ -25,3 +25,32 @@ md.sample_model(sample_data=(X, Y), model_data=(X, Y_simple))
 print("R-Squared of Simple Regression:", reg_simple.r_score(x_test=X, y_test=Y))
 
 # In[]
+from sklearn.preprocessing import PolynomialFeatures
+
+deg = 12
+poly_reg = PolynomialFeatures(degree=deg)
+X_poly = poly_reg.fit_transform(X)
+
+# In[]
+import pandas as pd
+regressor = SimpleRegressor()
+regressor.fit(X_poly, Y)
+Y_predict = regressor.predict(x_test=pd.DataFrame(X_poly))
+
+md.sample_model(sample_data=(X, Y), model_data=(X, Y_predict))
+
+# In[]
+from HappyML.performance import rmse
+
+print("Degree: {} RMSE:{:.4f}".format(deg, rmse(Y, Y_predict)))
+
+# In[]
+from HappyML.performance import rmse
+
+rmse_linear = rmse(Y, Y_simple)
+rmse_poly = rmse(Y, Y_predict)
+
+if rmse_linear < rmse_poly:
+    print("RMSE Linear:{:.4f} < RMSE Polynomial:{:.4f}...Linear smaller, WIN!!".format(rmse_linear, rmse_poly))
+else:
+    print("RMSE Linear:{:.4f} > RMSE Polynomial:{:.4f}...Polynomial smaller, WIN!!".format(rmse_linear, rmse_poly))
