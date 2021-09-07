@@ -27,3 +27,16 @@ selector = PCASelector()
 X = selector.fit(x_ary=X, verbose=True, plot=True).transform(x_ary=X)
 
 # In[]
+from HappyML.clustering import KMeansCluster
+
+cluster = KMeansCluster()
+Y_pred = cluster.fit(x_ary=X, verbose=True, plot=True).predict(x_ary=X, y_column="Customer Type")
+
+# Optional, Attach the Y_pred to Dataset & Save as .CSV file
+dataset = pp.combine(dataset, Y_pred)
+dataset.to_csv("Mall_Customers_answers.csv", index=False)
+
+# In[]
+import HappyML.model_drawer as md
+
+md.cluster_drawer(x=X, y=Y_pred, centroids=cluster.centroids, title="Customers Segmentation")
